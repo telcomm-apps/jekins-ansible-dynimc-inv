@@ -4,7 +4,7 @@ provider "aws" {
 resource "aws_instance" "AWSinstance" {
     ami = "ami-0f9d9a251c1a44858"
     instance_type = "t2.micro"
-    security_groups = ["Launch-wizard-2"]
+    security_groups = ["launch-wizard-2"]
     key_name = "sahityapanakam"
     tags = {
     Name = "tomcatservers"
